@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background: #ECECEC;
+    color: #202020;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Syncopate', sans-serif;
+    margin-top: 5rem;
+}
+
+/* left section */
+
+.profile {
+    border-radius: 5px;
+    color: white;
+}
+
+.name h2 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Kufam', cursive;
+    margin-bottom: 0;
+}
+
+.profile_photo {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.profile_photo img {
+    max-width: 300px;
+    border: 8px solid #202020;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+}
+
+.keywords {
+    display: flex;
+    justify-content: center;
+    margin: 5px 10px;
+    padding: 12px 0;
+}
+
+.keywords p {
+    margin: 0 8px;
+    background-color: slategray;
+    padding: 5px 0px;
+    width: 140px;
+    text-align: center;
+}
+
+.details{
+    padding: 0rem;
+}
+.list{
+    font-weight: 600;
+    padding-left: 2rem;
+}
+.oj{
+    max-width: 60%;
+    padding-top: 1rem;
+}
+
+/* common */
+.item2,
+.item3,
+.item1 {
+    max-width: 500px;
+}
+
+.item3 {
+    width: 400px;
+}
+.box{
+    height: 729px;
+}
+
+h2,
+h3 {
+    text-transform: uppercase;
+    max-width: fit-content;
+    margin: 0px auto;
+    margin-bottom: 0;
+    position: relative;
+    font-weight: 600;
+}
+
+h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 10px;
+    height: 2px;
+    background: black;
+    color: aqua;
+}
+
+h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 20px;
+    height: 2px;
+    background: black;
+    color: aqua;
+}
+
+
+p,
+li {
+    font-size: 13px;
+}
+
+/* middle section */
+
+
+
+.likesanddislikes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option1 {
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    max-width: 50%;
+    padding: 15px;
+    margin: auto;
+   
+}
+.logos {
+    list-style-type: none;
+    display: grid;
+    max-width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+    margin: auto;
+    margin-top: 2rem;
+   
+}
+
+.professional_background{
+    height: 453.5px;
+
+}
+
+
+/* right section */
+
+.bartop {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 4px 6px;
+    background-color: darkslategrey;
+    border-radius: 4px;
+}
+
+.bartop .ball {
+    grid-column: 8/9;
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 20px;
+}
+
+
+.ball2 {
+    grid-column: 10/11;
+    width: 100%;
+    height: 20px;
+    background-color: darkgoldenrod;
+}
+
+.bar,
+.bar2,
+.bar3,
+.bar4,
+.bar5,
+.bar6,
+.bar7,
+.bar8
+ {
+    display: flex;
+    padding: 4px 6px;
+    background-color: darkslategrey;
+    border-radius: 4px;
+}
+
+.ball {
+    background-color: darkgoldenrod;
+    height: 20px;
+}
+
+/* ADAPT HERE BARS */
+.bar .ball {
+    width: 80%;
+}
+
+.bar2 .ball {
+    width: 90%;
+}
+
+.bar3 .ball {
+    width: 80%;
+}
+
+.bar4 .ball {
+    width: 70%;
+}
+
+.bar5 .ball {
+    width: 60%;
+}
+
+.bar6 .ball {
+    width: 100%;
+}
+.bar7 .ball {
+    width: 70%;
+}
+.bar8 .ball {
+    width: 60%;
+}
+
+
+.item2 > div,
+.item1 > div:not(.profile),
+.item3 > div {
+    padding: 20px;
+    margin: 10px;
+    background: rgb(147, 162, 177);
+  
+}
+
+.about{
+    height: 265px;
+}
+.about p{
+    margin-top: 2rem;
+}
+h3 {
+    margin-top: 15px;
+}
