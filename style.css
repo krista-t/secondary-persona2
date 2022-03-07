@@ -228,11 +228,11 @@ li {
 }
 
 .bar2 .ball {
-    width: 90%;
+    width: 100%;
 }
 
 .bar3 .ball {
-    width: 80%;
+    width: 50%;
 }
 
 .bar4 .ball {
@@ -240,17 +240,17 @@ li {
 }
 
 .bar5 .ball {
-    width: 60%;
+    width: 90%;
 }
 
 .bar6 .ball {
-    width: 100%;
+    width: 90%;
 }
 .bar7 .ball {
-    width: 70%;
+    width: 90%;
 }
 .bar8 .ball {
-    width: 60%;
+    width: 100%;
 }
 
 
